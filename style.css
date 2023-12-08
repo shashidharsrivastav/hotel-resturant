@@ -1,0 +1,122 @@
+body{
+    height:auto;
+    width:auto;
+    background-image:url('../images/header2.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    font-family:"Times New Roman",;
+  }
+  .container{
+      height:100%;
+      width:100%;
+  }
+  header{
+    height:100px;
+    width:auto;
+    background-color:rgb(96, 96, 185);
+    border-radius:10px;
+    text-align:center;
+    text-shadow: #36d1aa;
+    font-size: 200px;
+    font-family:inherit;
+    color:#36d1aa;
+  }
+  nav{
+    height: 20px;
+    height:100%;
+    padding:30px;
+    margin:0 auto;
+  }
+  .nav{
+    border-radius:10px;
+    text-align:center;
+    background-color:rgb(104, 57, 57);
+    margin:0 auto;
+  }
+  .nav li{
+    display:inline-block;
+    padding:10px;
+    margin:5px;
+    color:white;
+    font-size:20px;
+  }
+  .nav li a{
+    text-decoration:none;
+  }
+  a:hover{
+    background-color:rgb(65, 136, 65);
+    border-radius:4px;
+  }
+  footer{
+    height:8%;
+    width:101%;
+    color:rgb(225, 100, 100);
+    background-color:rgb(179, 212, 212);
+    border-radius:10px;
+    margin-top:10px;
+  }
+  footer ul li{
+    display:inline-block;
+    padding:10px;
+    margin:5px;
+    font-size:20px;
+  }
+  footer ul li a{
+    text-decoration:none;
+  }
+  ul li:hover{
+    background-color:rgb(79, 156, 79);
+  }
+  .row{
+    margin:10px;
+  }
+  .row .col-sm-6{
+    background-image:url('../images/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right:1px;
+  }
+  .row .col-sm-2{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-overflow: ellipsis;
+    color:beige;
+  }
+  .row .col-sm-2 a{
+    text-decoration: none;
+  }
+  .form{
+    padding:10px;
+    margin:10px;
+    text-align: center;
+    color:black;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  input{
+    background-color: transparent;
+    color: black;
+    padding:10px;
+    margin: 2px;
+  }
+  .btn{
+    background-color: rgb(123, 15, 22);
+    height:60px;
+    width:150px;
+  }
+  .col-sm-4{
+    background-image:url('');
+  }
+  .col-sm-8{
+    background-color: aquamarine;
+    font-size: larger;
+    border-radius:4px;
+    text-align: center;
+    padding: 10px;
+  }
+  img{
+    image-rendering: auto;
+    overflow: scroll;
+  }
